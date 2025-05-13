@@ -359,7 +359,8 @@ function App() {
                 <Typography marginBottom={'5%'}>You also have three lifelines you can use if you're faced with a difficult question.
                   The lifelines will let you skip a question, get a hint, or eliminate two wrong answers.
                   However, you can use each of them only once per game, so choose wisely.</Typography>
-                <Typography>Try to score more points than your opponent to win the game!</Typography>
+                <Typography marginBottom={'5%'}>Try to score more points than your opponent to win the game!</Typography>
+                <Typography>Questions are fetched from <a href='https://the-trivia-api.com/'>The Trivia API</a></Typography>
               </Box>
             </Grid>
           </Grid>
